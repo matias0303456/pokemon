@@ -1,6 +1,8 @@
+import apis from "./config"
+
 const urls = {
 
-    pokemon: process.env.REACT_APP_POKE_API
+    pokemon: apis.pokeapi
 
 }
 
