@@ -1,0 +1,12 @@
+/* VARIABLES GLOBALES */
+:root {
+    --firstBaseColor: #0c0c0c;
+    --secondBaseColor: #ff6600;
+    --thirdBaseColor: #FFF;
+}
+
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+}

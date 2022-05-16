@@ -1,0 +1,9 @@
+header {
+    box-shadow: 0px 0px 3px var(--thirdBaseColor);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header h1{
+    color: var(--secondBaseColor);
+}
