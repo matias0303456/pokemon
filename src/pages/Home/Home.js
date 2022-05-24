@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Header from '../../appComponents/layout/Header'
 import '../../styles/pages/home/home.css'
@@ -7,13 +7,22 @@ import PokeProfile from './components/PokeProfile'
 
 const Home = () => {
 
+    const [pokeId, setPokeId] = useState(null)
+    const [selectedPoke, setSelectedPoke] = useState({})
+
     return (
         <>
             <Header />
 
-            <PokeList />
+            <PokeList
+                setPokeId={setPokeId}
+                setSelectedPoke={setSelectedPoke}
+            />
 
-            <PokeProfile />
+            <PokeProfile
+                pokeId={pokeId}
+                selectedPoke={selectedPoke}
+            />
         </>
     )
 }
