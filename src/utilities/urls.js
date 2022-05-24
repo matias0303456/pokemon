@@ -2,7 +2,8 @@ import apis from "./config"
 
 const urls = {
 
-    pokemon: apis.pokeapi
+    pokemon: apis.pokeapi,
+    users: apis.usersapi
 
 }
 
